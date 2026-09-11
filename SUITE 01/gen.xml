@@ -1,0 +1,49 @@
+﻿<krpano>  <scene name="scene_9d423a9b5a2f44528c28de16335fd844" title="Untitled 1" clientCameraType="Floor" autoload="true" thumburl="PanoThumbnail/c03ccaabbb724f3c9a91f1be4d0215a3.png">  <if check="get(env)==='online'"><image tilesize="512" baseindex="0" ox="-0.000000" oy="0.000000" oz="0.000000">
+<level tiledimagewidth="1024" tiledimageheight="1024" if="dollhouse != enable">
+    <cube url="images/9d423a9b5a2f44528c28de16335fd844/cubemap/l1/%s.jpg?x-oss-process=image/indexcrop,x_512,i_%h|image/indexcrop,y_512,i_%v"/>
+</level>
+
+<level tiledimagewidth="2048" tiledimageheight="2048" if="dollhouse != enable">
+    <cube url="images/9d423a9b5a2f44528c28de16335fd844/cubemap/l2/%s.jpg?x-oss-process=image/indexcrop,x_512,i_%h|image/indexcrop,y_512,i_%v"/>
+</level>
+
+<depthmap if="dollhouse==disable" subdiv="0" url="images/mesh.obj" origin="0.000000|-0.000000|-0.000000" align="0|-0.000000|0" background="none" backgroundurl="images/9d423a9b5a2f44528c28de16335fd844_bg.png"/>
+
+<depthmap if="dollhouse==enable" subdiv="0" url="images/mesh.obj" origin="0.000000|-0.000000|-0.000000" align="0|-0.000000|0" background="none" texurl="images/mesh_tex.png"/>
+</image></if><if check="get(env)!=='online'"><image  tilesize="1024" baseindex="0" ox="-0.000000" oy="0.000000" oz="0.000000">
+<level tiledimagewidth="1024" tiledimageheight="1024" if="dollhouse != enable">
+    <cube url="tiles/9d423a9b5a2f44528c28de16335fd844/cubemap/l1/%s_h%h_v%v.jpg"/>
+</level>
+
+<level tiledimagewidth="2048" tiledimageheight="2048" if="dollhouse != enable">
+    <cube url="tiles/9d423a9b5a2f44528c28de16335fd844/cubemap/l2/%s_h%h_v%v.jpg"/>
+</level>
+
+<depthmap if="dollhouse==disable" subdiv="0" url="images/mesh.obj" origin="0.000000|-0.000000|-0.000000" align="0|-0.000000|0" background="none" backgroundurl="images/9d423a9b5a2f44528c28de16335fd844_bg.png"/>
+
+<depthmap if="dollhouse==enable" subdiv="0" url="images/mesh.obj" origin="0.000000|-0.000000|-0.000000" align="0|-0.000000|0" background="none" texurl="images/mesh_tex.png"/>
+</image></if>  <hotspot name="hotspot_9d423a9b5a2f44528c28de16335fd844_to_66d355a84cdc41b6894ae00db6cbb3ad" url="%$punlicPath%/res/pivot-floor.png" scale="0.15" distorted="true" rx="90.000000" ry="0.000000" torigin="world" tx="-143.069639" ty="162.001450" tz="409.607191" depth="0.000000" onclick="hotspot_trans_action(hotspot_9d423a9b5a2f44528c28de16335fd844_to_66d355a84cdc41b6894ae00db6cbb3ad)"/>  </scene>  <scene name="scene_66d355a84cdc41b6894ae00db6cbb3ad" title="Untitled 2" clientCameraType="Floor" autoload="false" thumburl="PanoThumbnail/ca418ee616ce47f6bbaa7e4745a6ce38.png">  <if check="get(env)==='online'"><image tilesize="512" baseindex="0" ox="-143.069639" oy="0.000000" oz="409.607191">
+<level tiledimagewidth="1024" tiledimageheight="1024" if="dollhouse != enable">
+    <cube url="images/66d355a84cdc41b6894ae00db6cbb3ad/cubemap/l1/%s.jpg?x-oss-process=image/indexcrop,x_512,i_%h|image/indexcrop,y_512,i_%v"/>
+</level>
+
+<level tiledimagewidth="2048" tiledimageheight="2048" if="dollhouse != enable">
+    <cube url="images/66d355a84cdc41b6894ae00db6cbb3ad/cubemap/l2/%s.jpg?x-oss-process=image/indexcrop,x_512,i_%h|image/indexcrop,y_512,i_%v"/>
+</level>
+
+<depthmap if="dollhouse==disable" subdiv="0" url="images/mesh.obj" origin="143.069639|-0.000000|-409.607191" align="0|257.669861|0" background="none" backgroundurl="images/66d355a84cdc41b6894ae00db6cbb3ad_bg.png"/>
+
+<depthmap if="dollhouse==enable" subdiv="0" url="images/mesh.obj" origin="143.069639|-0.000000|-409.607191" align="0|257.669861|0" background="none" texurl="images/mesh_tex.png"/>
+</image></if><if check="get(env)!=='online'"><image  tilesize="1024" baseindex="0" ox="-143.069639" oy="0.000000" oz="409.607191">
+<level tiledimagewidth="1024" tiledimageheight="1024" if="dollhouse != enable">
+    <cube url="tiles/66d355a84cdc41b6894ae00db6cbb3ad/cubemap/l1/%s_h%h_v%v.jpg"/>
+</level>
+
+<level tiledimagewidth="2048" tiledimageheight="2048" if="dollhouse != enable">
+    <cube url="tiles/66d355a84cdc41b6894ae00db6cbb3ad/cubemap/l2/%s_h%h_v%v.jpg"/>
+</level>
+
+<depthmap if="dollhouse==disable" subdiv="0" url="images/mesh.obj" origin="143.069639|-0.000000|-409.607191" align="0|257.669861|0" background="none" backgroundurl="images/66d355a84cdc41b6894ae00db6cbb3ad_bg.png"/>
+
+<depthmap if="dollhouse==enable" subdiv="0" url="images/mesh.obj" origin="143.069639|-0.000000|-409.607191" align="0|257.669861|0" background="none" texurl="images/mesh_tex.png"/>
+</image></if>  <hotspot name="hotspot_66d355a84cdc41b6894ae00db6cbb3ad_to_9d423a9b5a2f44528c28de16335fd844" url="%$punlicPath%/res/pivot-floor.png" scale="0.15" distorted="true" rx="90.000000" ry="0.000000" torigin="world" tx="-0.000000" ty="162.001450" tz="0.000000" depth="0.000000" onclick="hotspot_trans_action(hotspot_66d355a84cdc41b6894ae00db6cbb3ad_to_9d423a9b5a2f44528c28de16335fd844)"/>  </scene></krpano>
